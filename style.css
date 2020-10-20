@@ -1,0 +1,74 @@
+#header {
+  height: 60px;
+  position: fixed;
+  background-color: #cd2122;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#header img {
+  height: 60px;
+}
+
+@media screen and (max-width: 685px) {
+  #header {
+    height: 120px;
+  }
+}
+
+
+/* Account for 60px offset by fixed navbar */
+a.anchor {
+  position: relative;
+  top: -60px;
+  display: block;
+  visibility: hidden;
+}
+
+#nav-bar {
+  display: inline;
+  margin-top: 10px;
+  margin-left: 60px;
+}
+
+.body {
+  margin-top: 60px;
+}
+
+.nav-link {
+  display: inline;
+  color: #ddd;
+  font-weight: bold;
+  border-bottom: 4px solid #ddd;
+  padding: 5px 10px;
+  margin: 0 20px;
+}
+.nav-link:hover {
+  color: #fff;
+  border-color: #fff;
+}
+
+.big-icon {
+  font-size: 800%;
+}
+
+section {
+  margin-top: 60px;
+}
+
+.feature {
+  border: 1px solid black;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+}
+
+.col-md-6 {
+  margin-top: 10px;
+}
